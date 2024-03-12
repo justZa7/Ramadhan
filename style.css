@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Permanent+Marker&family=Sacramento&family=Shadows+Into+Light&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(Arka\ Plan\ Idul\ Fitri\ Atau\ Ramadhan\ Latar\ Belakang\ Kosong\ Dengan\ Pola\ Islami\ Ücretsiz\ İndirmek\ İçin\ Duvar\ Kağıdı\ Resmi\ -\ Pngtree.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text {
+    margin-bottom: 110px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 700;
+    color: #f3f3f3;
+    padding: 1.5rem;
+}
+
+h2 {
+    margin-top: 100px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 4rem;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 6px 4px 1px rgb(0, 71, 26);
+    flex: 1;
+}
+
+footer {
+    position: absolute;
+    backdrop-filter: blur(4px);
+    width: 100%;
+    height: 7vh;
+    color: #ffffff;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+footer a {
+    text-decoration: none;
+    align-self: center;
+    font-size: 1.6rem;
+    color: #f4f4f4;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.5);
+}
+
+.muted {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #f3f3f3;
+    opacity: 0.8;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
